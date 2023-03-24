@@ -1,1 +1,1 @@
-README
+https://github.com/Dmitry1142/rsschool-cv/blob/gh-pages/cv.md
