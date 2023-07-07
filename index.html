@@ -4,8 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <nav class="list">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contact">Contact information</a></li>
+                <li class="nav-item"><a href="#skills">Skills and Proficiency</a></li>
+                <li class="nav-item"><a href="#languages">Languages</a></li>
+                <li class="nav-item"><a href="#aboutme">About Myself</a></li>
+                <li class="nav-item"><a href="#code">Code example</a></li>
+                <li class="nav-item"><a href="#courses">Courses</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="leftside">
+            <img src="assets/photo.jpg" alt="photo">    
+            <div class="contact" id="contact">
+                <h2>Contact</h2>
+                <ul>
+                    <li>
+                        <p>Address</p>
+                        <a href="https://www.google.com/maps/place/%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C/@52.4253073,30.917606,12z/data=!4m6!3m5!1s0x46d4699b50faf1a5:0x5ecca30fd2361396!8m2!3d52.4313388!4d30.99367!16zL20vMDE1OWR6">Gomel,Belarus</a>
+                    </li>
+                    <li>
+                        <p>GitHub</p>
+                        <a href="https://github.com/Dmitry1142">Dmitry1142</a>
+                    </li>
+                    <li>
+                        <p>Discord</p>
+                        <a href="https://discordapp.com/users/290438371480829952/">DiMaSiT#4894</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="skills" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML, CSS</li>
+                    <li>JavaScript Basics</li>
+                    <li>Git, GitHub</li>
+                    <li>VS Code</li>
+                    <li>C++</li>
+                </ul>
+            </div>
+            <div class="languages" id="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>English - A1</li>
+                    <li>Russian - Native</li>
+                </ul>
+            </div>
+        </section>
+        <section class="rightside">
+            <div class="name">
+                <h1>Dmitry Kalinenko</h1>
+                <h2>Beginner Front-end Developer</h2>
+            </div>
+            <div class="aboutme" id="aboutme">
+                <h2>About Myself</h2>
+                <p>Was born in Gomel. Graduated from the GSU University. I am studying web development.I hope my diligence will help me to obtain useful knowledge.</p>
+            </div>
+            <div class="code" id="code">
+                <h2>Code</h2>
+                    <p>
+                        function sum(a, b) {<br>
+                        return a + b;}<br>
+                        let result = sum(1, 2);<br>
+                        alert( result );
+                    </p>
+            </div>
+            <div class="courses" id="courses">
+                <h2>Courses</h2>
+                <ul>
+                    <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                    <li>RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="github">
+            <a href="https://github.com/Dmitry1142">My GitHub</a>
+            <img src="assets/github.png" alt="github">
+        </div>
+        <p class="data">2023</p>
+        <a href="https://rs.school/js/"><img class="logorss" src="assets/rs_school_js.svg" alt="logorss"></a>
+    </footer>
 </body>
 </html>
