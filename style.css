@@ -87,7 +87,8 @@
     width: 380px;
  }
  
- .contact a:hover {
+ .contact a:hover,
+ .projects a:hover {
     border-bottom: 3px solid #333b4c;
  }
  
